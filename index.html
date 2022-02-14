@@ -1,0 +1,96 @@
+<html>
+
+<head>
+
+</head>
+
+<body style="background-color :#413f3d;">
+    <form style="background-color:#697184; margin-top: 25px; width: 50%; position:relative; left: 25%;">
+        <h1 style="background-color:#d8cfd0; width: fit-content; position:relative; bottom: 20px; left: 15px;">
+            Personal Data</h1>
+
+        <div style="background-color: #b1a6a4; margin: 0px 20px;">
+            <h2 style="background-color: #d8cfd0
+                ; width: fit-content; padding: 25px 0px; position:relative; bottom: 30px; left: 30px;">
+                your name</h2>
+            <table style="position: relative; bottom: 20px; left:30px ; width: 300px;">
+                <tr>
+                    <td width="100px"><label>First Name</label></td>
+                    <td> : </td>
+                    <td></td>
+                    <td><input type="text" name="fname" placeholder="enter first name" required maxlength="20" minlength="3"></td>
+                </tr>
+                <tr>
+                    <td><label>Second Name</label></td>
+                    <td> : </td>
+                    <td></td>
+                    <td><input type="text" name="sname" placeholder="enter second name" required maxlength="20" minlength="3"></td>
+                </tr>
+            </table>
+        </div>
+        <table style="margin: 20px 50px; width: 300px;">
+            <tr>
+                <td width="100px"><label>Your Phone</label></td>
+                <td> : </td>
+                <td></td>
+                <td><input type="tel" name="phone" placeholder="enter phone number" required></td>
+            </tr>
+            <tr>
+                <td><label>Email</label></td>
+                <td> : </td>
+                <td></td>
+                <td><input type="email" name="email" placeholder="enter email" required></td>
+            </tr>
+            <tr>
+                <td><label>Password</label></td>
+                <td> : </td>
+                <td></td>
+                <td><input type="password" name="pass" placeholder="enter password" required min="10" max="20"></td>
+            </tr>
+            <tr>
+                <td><label>Re-Password</label></td>
+                <td> : </td>
+                <td></td>
+                <td><input type="password" name="re_pass" placeholder="enter re_password" required min="10" max="20"></td>
+            </tr>
+        </table>
+
+        <h3 style="margin: 0px 25px;">Enter Your Gender</h3>
+        <div style="margin: 10px 50px;">
+            <input type="radio" name="gender" value="male" checked required>
+            <label>Male</label>
+            <br>
+            <input type="radio" name="gender" value="Female">
+            <label>Female</label>
+            <br>
+        </div>
+        <h3 style="margin: 0px 25px;">Enter Your Experience</h3>
+        <div style="margin: 10px 50px;">
+            <input type="checkbox" name="experience" value="front_end" required>
+            <label>Front_End</label>
+            <br>
+            <input type="checkbox" name="experience" value="back_end">
+            <label>Back_End</label>
+            <br>
+
+        </div>
+        <select name="university" style="margin: 10px 50px;">
+            <option disabled selected>select your university</option>
+            <optgroup label="university in egypt">
+                <option value="ain_shams">Ain Shams</option>
+                <option value="cairo">Cairo</option>
+                <option value="helwan">Helwan</option>
+            </optgroup>
+            <optgroup label="university in united states">
+                <option value="Southern_California">Southern California</option>
+                <option value="harvard ">Harvard </option>
+                <option value="Texas_A&M">Texas A&M</option>
+            </optgroup>
+        </select>
+        <br>
+        <button type="submit" style="padding:0px; margin: 10px 50px 65px; border-radius: 10px;"><img src="images/image.png" alt="submit"
+                width="80px" style="border-radius: 10px"></button>
+    </form>
+</body>
+
+</html>
